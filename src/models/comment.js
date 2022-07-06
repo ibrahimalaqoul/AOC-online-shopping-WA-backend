@@ -13,7 +13,6 @@ const  comments =(sequelize,DataTypes)=> sequelize.define('comments',{
     userName :{
         type: DataTypes.STRING,
         allowNull: false,
-        unique: true,
     },
 })
 module.exports= comments

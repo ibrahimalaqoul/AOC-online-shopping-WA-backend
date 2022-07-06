@@ -14,7 +14,7 @@ router.post('/addItem/:id',bearer,async(req,res)=>{
         userId:id
     })
     res.status(201).json({
-        'item':createdItem3456
+        'item':createdItem
     })
 })
 router.get('/items',bearer,async(req,res)=>{
